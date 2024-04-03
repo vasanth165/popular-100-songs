@@ -1,0 +1,88 @@
+.container {
+    padding: 5% 10%;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.index-h1 {
+  font-size: 3rem;
+}
+.index-h2 {
+  font-size: 2rem;
+}
+
+.index-h1, .index-h2, #search-form, .error-h1, .error-h2 {
+    padding: 2% 0;
+}
+
+.index-h2, .error-h2 {
+    line-height: 2.8rem;
+}
+
+.songs-h1 {
+    padding: 2%;
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #search-input {
+    padding: 10px 40px 10px 10px; 
+    border-radius: 20px;
+    border: 2px solid #007bff; 
+    width: 300px;
+  }
+  
+  #search-button {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    padding: 8px 16px; 
+    border: none;
+    border-radius: 16px; 
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+
+  #search-button:hover {
+    background-color: black;
+  }
+  
+
+.songs-container {
+    padding: 0 30%;
+    text-align: left;
+}
+
+body {
+  background: linear-gradient(300deg, #E3F4F4, #D2E9E9, #C4DFDF);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

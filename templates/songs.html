@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songs</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="songs-container">
+        <h1 class="songs-h1">Popular Songs of {{ date }} Week</h1>
+        {% for i in title: %}
+            <h2>{{ title.index(i) + 1 }}. {{ i }}</h2>
+        {% endfor %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Music</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body class="gradient-background">
+    <div class="container">
+        <h1 class="index-h1">Popular 100</h1>
+        <h2 class="index-h2">The week's most popular current songs across all genres, ranked by streaming activity from digital music sources tracked by luminate, radio airplay audience impressions as measured by luminate and sales data as compiled by luminate. If nothing is entered, the default is today's date.</h2>
+        <form action="/songs" method="post" class="input-container">
+                <input id="search-input" type="text" name="date" placeholder="YYYY-MM-DD">
+                <button id="search-button" formaction="{{ url_for('show_songs') }}">Go</button> 
+        </form>  
+    </div>                
+</body>
+</html>
