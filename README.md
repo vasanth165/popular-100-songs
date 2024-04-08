@@ -1,8 +1,6 @@
 # popular_100_songs
 
-Sure, here's a README file outline for your project:
-
-Week's Top 100 Songs Web Scraper
+<h2>Week's Top 100 Songs Web Scraper</h2>
 Welcome to the Week's Top 100 Songs Web Scraper! This project allows users to enter a date and retrieve the top 100 songs for that week from a specified website.
 
 How It Works
