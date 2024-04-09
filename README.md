@@ -8,4 +8,4 @@
 <li>Data Extraction: The scraper extracts the song titles and other relevant information.</li>
 <li>Display: The user is then presented with a list of the top 100 songs for the specified week on a new webpage.</li>
 </ol>
-<img src="images/Screenshot_1" alt="Screenshot_1">
+<img src="images/Screenshot_1.png" alt="Screenshot_1">
