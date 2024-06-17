@@ -8,7 +8,9 @@ This project allows users to enter a date and retrieve the top 100 songs for tha
 2. **Web Scraping**: The backend Python code scrapes the website for the top 100 songs for the given week.
 3. **Data Extraction**: The scraper extracts the song titles and other relevant information.
 4. **Display**: The user is then presented with a list of the top 100 songs for the specified week on a new webpage.
+## Live Website
 
+This is a live website; click [here](https://popular-100-songs.onrender.com/) to visit.
 ## Screenshots
 
 1. ### Local Server Running
@@ -40,8 +42,3 @@ This project allows users to enter a date and retrieve the top 100 songs for tha
    ![Screenshot_6](images/Screenshot_6.png)
    When an error occurs, users are directed to an error page with relevant information.
    <hr>
-
-## Live Website
-
-This is a live website; click [here](https://popular-100-songs.onrender.com/) to visit.
-
